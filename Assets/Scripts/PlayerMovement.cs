@@ -19,22 +19,23 @@ public class PlayerMovement : MonoBehaviour
     {
         float horizontalInput = Input.GetAxis("Horizontal");
         body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
-       if (horizontalInput < -0.4752f)
+        if (horizontalInput < -0.4752f)
             transform.localScale = new Vector3(-0.4752f, 0.4752f, 0.4752f);
         else if (horizontalInput < 0.4752f)
             transform.localScale = new Vector3(0.4752f, 0.4752f, 0.4752f);
 
         if (Input.GetKey(KeyCode.Space) && grounded)
-            glide();
+            Jump();
 
         //sets animation parameters
         anim.SetBool("run", horizontalInput != 0);
         anim.SetBool("grounded", grounded);
     }
-    private void glide()
+
+    private void Jump()
     {
         body.velocity = new Vector2(body.velocity.x, speed);
-        anim.SetTrigger("glide");
+        anim.SetTrigger("jump");
         grounded = false;
     }
 
