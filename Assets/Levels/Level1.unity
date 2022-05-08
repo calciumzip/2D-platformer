@@ -285,7 +285,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.8190727, y: -6.176814}
+  m_Offset: {x: -0.77, y: -6.176814}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -798,7 +798,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.261185
+  orthographic size: 6.83056
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1723,11 +1723,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2086165505}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.490702, y: 1.6265526, z: 0.44226706}
-  m_LocalScale: {x: 0.04228321, y: 0.47470257, z: 0.06378247}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0029743307, w: -0.9999956}
+  m_LocalPosition: {x: -10.511, y: 1.7483, z: 0.44226706}
+  m_LocalScale: {x: 0.041095052, y: 0.46758205, z: 0.06378247}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1967307431}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.341}
