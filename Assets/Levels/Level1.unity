@@ -285,7 +285,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.017071724, y: -6.176814}
+  m_Offset: {x: -0.8190727, y: -6.176814}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -296,7 +296,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 19.30219, y: 1.7543545}
+  m_Size: {x: 25.388702, y: 1.7543545}
   m_EdgeRadius: 0
 --- !u!1 &54418895
 GameObject:
@@ -798,7 +798,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.0135436
+  orthographic size: 7.261185
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
